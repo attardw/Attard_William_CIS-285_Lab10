@@ -19,10 +19,10 @@ public class SelectionSort {
 	            for (int j= i+1; j < x.length; ++j) {
 	                if (x[j] < x[i]) {
 	                    min = j;
-						temp = x[min];
-						x[min]=x[i];
-						x[i]=temp;
-						//edit made in mixdup branch because I had already fixed the issue
+temp = x[min];
+x[min]=x[i];
+x[i]=temp;
+//edit made in mixdup branch because I had already fixed the issue
 	                }
 	            } // end of inner for loop
 	        } // end of outer for loop
