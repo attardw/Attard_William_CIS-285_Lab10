@@ -23,7 +23,7 @@ public class SelectionSort {
 											x[min]=x[i];
 											x[i]=temp;
 											//edit made in mixdup branch because I had already fixed
-											//the sort
+											//the sort for both
 	                }
 	            } // end of inner for loop
 	        } // end of outer for loop
